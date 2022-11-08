@@ -1,0 +1,36 @@
+// File learnwhile.java
+// Introduce while loop and do while
+
+/*-----------Syntax--------------*/
+// 1. while (expression)
+//  {
+//   <statement>;
+//  }
+
+// 2. do
+// {
+//   <statement 1>    
+// }
+// while (expression);
+
+package learnwhile;
+
+public class learnwhile {
+	public static void main(String[] args) {
+		int x = 5;
+        while (x<25)
+        {
+            x=2*x - 1;
+        }   
+        System.out.println("Value x: "+x);
+
+        int k =1,sum=0;
+        do{
+            sum+=k;
+            k++;
+
+        } while (k<10);
+
+        System.out.println("Sum 1 to 10:"+sum);
+	}
+}

@@ -1,0 +1,11 @@
+
+public class demo {
+	public static void main(String[] args) {
+		final double PI=3.14159;
+		int a=1;
+		System.out.println(a++);
+		System.out.println(++a);
+		System.out.println(a+++1);
+		System.out.println(+a+1);
+	}
+}

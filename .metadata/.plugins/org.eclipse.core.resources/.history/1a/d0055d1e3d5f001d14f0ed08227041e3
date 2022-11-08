@@ -1,0 +1,12 @@
+// File operator.java
+// Introduction to common operators in java
+
+
+package operator;
+
+public class operator {
+	public static void main(String[] args) {
+		int a=4, b=5;
+		System.out.println("Add: "+(a+b));
+	}
+}

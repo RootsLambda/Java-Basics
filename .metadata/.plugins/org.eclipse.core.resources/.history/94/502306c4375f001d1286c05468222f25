@@ -1,0 +1,7 @@
+package iosimple;
+
+public class iosimple {
+	public static void main(String[] args) {
+		System.out.print("Lambda");
+	}
+}
